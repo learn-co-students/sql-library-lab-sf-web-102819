@@ -56,7 +56,4 @@ def select_character_names_and_number_of_books_they_are_in
   GROUP BY characters.name
   ORDER BY COUNT(characters.id) DESC
   "
-  # "
-  # SELECT COUNT(*) FROM characters
-  # "
 end
